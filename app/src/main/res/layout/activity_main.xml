@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="45dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="45dp">
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Font 1"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Font 2"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Font 3"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Font 4"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Font 5"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
